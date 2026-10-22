@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.local
+.env.*.local
+
+# Large files (if not using LFS)
+# *.pt are tracked in .gitattributes with LFS
+# *.csv are tracked in .gitattributes with LFS
+
+# API keys / secrets (never commit these)
+live_api_key.json
+*.key
+secrets.json
+
+# Large local artifacts (model weights, datasets, demo videos)
+*.pt
+data/*.csv
+data/*.mp4
+test_videos/
+h origin main
+*.log
